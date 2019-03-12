@@ -7,6 +7,6 @@
 int main(int agrc,char*argv[])
 {
 
-
+printf("main %s\n",argv[0]);
 return 0;
 }
