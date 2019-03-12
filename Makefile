@@ -24,7 +24,7 @@ NM=nm
 LD_FLAGS= -Wl,-stack_size,0x100000000
 CFLAGS += -Wall -fPIC -O -I./include -I/usr/include -D_LINUX_
 LIBS = 
-OBJECTS = main.o 
+OBJECTS = main.o file.o 
 
 ALL=Xmain
 
